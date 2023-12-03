@@ -1,0 +1,52 @@
+<!--Task 1) Create an HTML page with a button .When the button is clicked , change the text of a paragraph element?-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Task 1 Lets Examine</title>
+
+
+
+</head>
+<body >
+
+<p id="one">Hello I Need a Break a vacation</p>
+
+<button id="ClickKaro">Click me</button>
+<script>
+
+var btn=document.querySelector("#ClickKaro");
+var valueOfP=document.querySelector("#one");
+btn.addEventListener("click",function(){
+valueOfP.innerHTML="<h3>Don't compromise study Even in your breaks it will affect your consistency badly</h3>";
+});
+
+</script>
+</body>
+</html>
+
+<!--
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Task 1 Lets Examine</title>
+
+<script>
+var abc=()=>{
+document.getElementById("one").innerHTML="Dont compromise study Even in your breaks it will affect your consistency badly";
+}
+
+</script> 	
+
+</head>
+<body >
+
+<p id="one">Hello I Need a Break a vacation1</p>
+
+<button onclick="return abc();" id="ClickKaro">Click me</button>
+
+</body>
+</html>
+
+-->
